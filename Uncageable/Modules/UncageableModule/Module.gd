@@ -7,7 +7,7 @@ func _init():
 func onEquippedItemsChange():
 	# GM.pc.getInventory().removeEquippedItemsWithTag(ItemTag.ChastityCage)
 	for item in GM.pc.getInventory().getEquippedItemsWithTag(ItemTag.BDSMRestraint):
-		if(item.getClothingSlot() == InventorySlot.Penis):
+		if(item.getClothingSlot() == InventorySlot.Penis || item.hasTag(ItemTag.ChastityCage)):
 			GM.pc.getInventory().removeEquippedItem(item)
 
 func registerEventTriggers():
