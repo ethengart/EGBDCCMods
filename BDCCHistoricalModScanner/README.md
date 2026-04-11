@@ -7,7 +7,7 @@ This python script scans https://github.com/Alexofp/BDCCMods for all mods that h
 * There's no indicator if a mod works or not
 * There's no indicator if a mod has been replaced by another, newer mod
 
-This is only mean to be an easier method to search for mods you may be interested in.
+This is only meant to be an easier method to search for mods you may be interested in.
 
 ![Example of Google Sheets reading CSV](sheets.png)
 
@@ -22,7 +22,7 @@ Good! Here's some info:
 * If you're concerned, just stick with the CSV file.
 * CSV is just like a pure text file. You can also search it with a text editor if you really want. It cannot contain macro exploits like typical excel documents.
 * All URLs are static links to the BDCCMods repository. You can explore and search for the mods yourself if you want via github (the latest commit is provided too).
-* All the source is here - you can read it, and its not too long! Maybe the most risky thing is this that the python script runs `git checkout` repeatedly in the directory you provide.
+* All the source is here - you can read it, and it is not too long! Maybe the most risky thing is that the python script runs `git checkout` repeatedly in the directory you provide.
 
 ### *I want to generate the csv myself!*
 1. Install git and python3
