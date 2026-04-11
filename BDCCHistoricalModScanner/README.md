@@ -9,6 +9,8 @@ This python script scans https://github.com/Alexofp/BDCCMods for all mods that h
 
 This is only mean to be an easier method to search for mods you may be interested in.
 
+![Example of Google Sheets reading CSV](sheets.png)
+
 ### *Just show me the mods!*
 1. Open `allallmods.csv` in excel or google sheets yourself. 
 2. Set the delimiter to `;` (semicolon). Google sheets does this automatically for you.
